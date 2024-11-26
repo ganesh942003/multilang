@@ -43,6 +43,12 @@ const navItems = [
         route:pathname,
         locale:"en"
     }, 
+
+    {
+      lable: <Avatar src={'/uk.png'} alt="start icon" style={{ width: 24, height: 24 }} />,
+      route:pathname,
+      locale:"de"
+  }, 
       
     ];
   const { window } = props;
